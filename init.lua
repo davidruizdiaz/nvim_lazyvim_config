@@ -4,3 +4,9 @@ require("config.lazy")
 -- Para compilador c, necesario para los lsp
 require("nvim-treesitter.install").prefer_git = false
 require("nvim-treesitter.install").compilers = { "cc", "gcc" }
+
+
+-- Para spring boot
+require('java').setup()
+require('lspconfig').jdtls.setup({})
+
