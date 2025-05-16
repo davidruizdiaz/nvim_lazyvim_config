@@ -1,6 +1,6 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-require("config.java")
+-- require("config.java")
 
 -- Para compilador c, necesario para los lsp
 require("nvim-treesitter.install").prefer_git = false
